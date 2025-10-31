@@ -15,6 +15,21 @@ export default function About() {
           </p>
         </div>
 
+        {/* Story Section */}
+        <div className="bg-white bg-opacity-10 p-8 rounded-2xl backdrop-blur-sm mb-12">
+          <div className="space-y-6 text-lg leading-relaxed">
+            <p>
+              <strong className="text-osha-gold">גיא ואושרי</strong> – הוא מעולם ההייטק, היא מדריכת פילאטיס ומנחת חיבור גוף–נפש – חיברו בין העולמות כדי ליצור את <strong className="text-osha-gold">"אושה"</strong>: עגלת קפה ואוכל טוב בגליל המערבי, במושב בוסתן הגליל, בין עכו לנהריה.
+            </p>
+            <p>
+              אושה נולדה מתוך אהבה לאנשים, לאוכל טרי ולמפגש שמרגיש בית. ואז הגיעה המלחמה, עצרה את הכול והשאירה את הרחובות שקטים. מאז, אנחנו פועלים בכל הכוח להחזיר את הצבע, הריח, והחיים למקום הקטן שלנו – ולהחזיר את המפגש הקהילתי שכל כך חסר.
+            </p>
+            <p>
+              כאן מחכים לכם פיצות נפוליטניות חמות, סלטים טריים, כריכי מחמצת, קפה איכותי, בירות, קוקטיילים, מאפים מתוקים ומלוחים, שקשוקות – ותפריט מגוון שמתאים גם לאירועי חברה, חגיגות פרטיות ומפגשים מיוחדים.
+            </p>
+          </div>
+        </div>
+
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div className="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm">
             <h3 className="text-2xl font-bold mb-4 text-osha-gold">התפריט שלנו</h3>
