@@ -1,0 +1,12 @@
+# עגלת קפה צפון גליל עכו נהריה - אושה
+# OSHA Coffee - North Galilee, Acre, Nahariya
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemaps
+Sitemap: https://osha-808c23454ca3.herokuapp.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1

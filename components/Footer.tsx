@@ -103,9 +103,20 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-osha-gold border-opacity-30 pt-6 text-center">
+        <div className="border-t border-osha-gold border-opacity-30 pt-6 text-center space-y-2">
           <p className="text-sm opacity-80">
             © {new Date().getFullYear()} אושה - OSHA. כל הזכויות שמורות.
+          </p>
+          <p className="text-xs opacity-60">
+            אתר זה נבנה על ידי{" "}
+            <a
+              href="https://www.errn.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-osha-gold transition-colors underline"
+            >
+              www.errn.io
+            </a>
           </p>
         </div>
       </div>
