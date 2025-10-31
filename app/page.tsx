@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import Gallery from "@/components/Gallery";
 import About from "@/components/About";
+import Reviews from "@/components/Reviews";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -61,6 +62,13 @@ export default function Home() {
       "https://www.instagram.com/osha.bustanhagalil/",
       "https://www.facebook.com/wshgltqph"
     ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "23",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
     "hasMenu": {
       "@type": "Menu",
       "hasMenuSection": [
@@ -95,6 +103,7 @@ export default function Home() {
         <Hero />
         <About />
         <Gallery />
+        <Reviews />
         <Footer />
       </main>
     </>
