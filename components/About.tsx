@@ -1,7 +1,70 @@
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-osha-green text-white">
-      <div className="container mx-auto px-4 max-w-4xl">
+    <section id="about" className="py-20 bg-osha-green text-white relative overflow-hidden">
+      {/* Floral/Succulent Decorative Elements */}
+      <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
+        {/* Top left succulent */}
+        <div className="absolute top-10 left-10 opacity-10">
+          <svg width="150" height="150" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="8" fill="currentColor" className="text-osha-gold"/>
+            <ellipse cx="50" cy="35" rx="6" ry="12" fill="currentColor" className="text-white"/>
+            <ellipse cx="50" cy="65" rx="6" ry="12" fill="currentColor" className="text-white"/>
+            <ellipse cx="35" cy="50" rx="12" ry="6" fill="currentColor" className="text-white"/>
+            <ellipse cx="65" cy="50" rx="12" ry="6" fill="currentColor" className="text-white"/>
+            <ellipse cx="38" cy="38" rx="10" ry="8" fill="currentColor" className="text-white" transform="rotate(-45 38 38)"/>
+            <ellipse cx="62" cy="38" rx="10" ry="8" fill="currentColor" className="text-white" transform="rotate(45 62 38)"/>
+            <ellipse cx="38" cy="62" rx="10" ry="8" fill="currentColor" className="text-white" transform="rotate(45 38 62)"/>
+            <ellipse cx="62" cy="62" rx="10" ry="8" fill="currentColor" className="text-white" transform="rotate(-45 62 62)"/>
+          </svg>
+        </div>
+
+        {/* Top right leaf */}
+        <div className="absolute top-20 right-10 opacity-15">
+          <svg width="120" height="120" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 10 Q30 30 50 50 Q70 30 50 10Z" fill="currentColor" className="text-osha-gold"/>
+            <path d="M50 50 Q30 70 50 90 Q70 70 50 50Z" fill="currentColor" className="text-white"/>
+            <line x1="50" y1="10" x2="50" y2="90" stroke="currentColor" strokeWidth="2" className="text-osha-gold"/>
+          </svg>
+        </div>
+
+        {/* Bottom left flower */}
+        <div className="absolute bottom-10 left-20 opacity-12">
+          <svg width="130" height="130" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="30" r="12" fill="currentColor" className="text-white"/>
+            <circle cx="70" cy="50" r="12" fill="currentColor" className="text-white"/>
+            <circle cx="50" cy="70" r="12" fill="currentColor" className="text-white"/>
+            <circle cx="30" cy="50" r="12" fill="currentColor" className="text-white"/>
+            <circle cx="64" cy="36" r="12" fill="currentColor" className="text-white"/>
+            <circle cx="64" cy="64" r="12" fill="currentColor" className="text-white"/>
+            <circle cx="36" cy="64" r="12" fill="currentColor" className="text-white"/>
+            <circle cx="36" cy="36" r="12" fill="currentColor" className="text-white"/>
+            <circle cx="50" cy="50" r="10" fill="currentColor" className="text-osha-gold"/>
+          </svg>
+        </div>
+
+        {/* Bottom right succulent */}
+        <div className="absolute bottom-20 right-10 opacity-10">
+          <svg width="140" height="140" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="50" cy="50" rx="15" ry="20" fill="currentColor" className="text-white"/>
+            <ellipse cx="50" cy="50" rx="12" ry="15" fill="currentColor" className="text-osha-gold" opacity="0.5"/>
+            <ellipse cx="35" cy="45" rx="10" ry="15" fill="currentColor" className="text-white" transform="rotate(-30 35 45)"/>
+            <ellipse cx="65" cy="45" rx="10" ry="15" fill="currentColor" className="text-white" transform="rotate(30 65 45)"/>
+            <ellipse cx="40" cy="60" rx="8" ry="12" fill="currentColor" className="text-white" transform="rotate(-20 40 60)"/>
+            <ellipse cx="60" cy="60" rx="8" ry="12" fill="currentColor" className="text-white" transform="rotate(20 60 60)"/>
+          </svg>
+        </div>
+
+        {/* Center top small leaves */}
+        <div className="absolute top-5 left-1/2 -translate-x-1/2 opacity-8">
+          <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="40" cy="50" rx="8" ry="15" fill="currentColor" className="text-white" transform="rotate(-45 40 50)"/>
+            <ellipse cx="60" cy="50" rx="8" ry="15" fill="currentColor" className="text-white" transform="rotate(45 60 50)"/>
+            <circle cx="50" cy="50" r="5" fill="currentColor" className="text-osha-gold"/>
+          </svg>
+        </div>
+      </div>
+
+      <div className="container mx-auto px-4 max-w-4xl relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-osha-gold">
           אודות אושה
         </h2>
