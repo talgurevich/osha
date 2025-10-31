@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaPhone, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 import { SiWaze } from "react-icons/si";
 
 export default function Footer() {
@@ -54,6 +54,15 @@ export default function Footer() {
                 054-5678711
               </a>
               <div className="flex gap-6 justify-center md:justify-start text-3xl">
+                <a
+                  href="https://wa.me/972545678711"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-osha-gold transition-colors"
+                  aria-label="WhatsApp"
+                >
+                  <FaWhatsapp />
+                </a>
                 <a
                   href="https://www.instagram.com/osha.bustanhagalil/"
                   target="_blank"
