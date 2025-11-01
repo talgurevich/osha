@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { FaStar } from "react-icons/fa";
+import { FaStar, FaWhatsapp } from "react-icons/fa";
+import { SiWaze } from "react-icons/si";
 
 export default function Hero() {
   return (
@@ -32,7 +33,7 @@ export default function Hero() {
         </p>
 
         {/* Rating Badge */}
-        <div className="flex items-center justify-center gap-2 mb-8 bg-white bg-opacity-20 backdrop-blur-md px-6 py-3 rounded-full mx-auto w-fit">
+        <div className="flex items-center justify-center gap-2 mb-6 bg-white bg-opacity-20 backdrop-blur-md px-6 py-3 rounded-full mx-auto w-fit">
           <div className="flex gap-1 text-osha-gold">
             <FaStar />
             <FaStar />
@@ -42,6 +43,28 @@ export default function Hero() {
           </div>
           <span className="text-white font-semibold">4.8</span>
           <span className="text-white opacity-80 text-sm">(23 ביקורות)</span>
+        </div>
+
+        {/* Action Buttons - Waze and WhatsApp */}
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
+          <a
+            href="https://waze.com/ul/hsvbgqmgp0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 bg-[#00D9FF] text-white px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all hover:scale-105 shadow-lg"
+          >
+            <SiWaze className="text-xl" />
+            נווט עם Waze
+          </a>
+          <a
+            href="https://wa.me/972545678711"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all hover:scale-105 shadow-lg"
+          >
+            <FaWhatsapp className="text-xl" />
+            שלחו הודעה
+          </a>
         </div>
 
         <a
