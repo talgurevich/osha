@@ -27,7 +27,7 @@ export default function Hero() {
             className="mx-auto rounded-full shadow-2xl"
           />
         </div>
-        <h1 className="text-5xl md:text-7xl font-bold mb-4">אושה</h1>
+        <h1 className="text-5xl md:text-7xl font-bold mb-4">אוֹשָׁה</h1>
         <p className="text-2xl md:text-3xl mb-4 text-osha-gold">
           COFFEE, FOOD, FRIENDS
         </p>
