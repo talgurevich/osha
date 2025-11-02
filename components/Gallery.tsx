@@ -73,16 +73,8 @@ export default function Gallery() {
                 className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
               />
 
-              {/* Gradient overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-
               {/* Border effect */}
               <div className="absolute inset-0 border-4 border-osha-gold opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl m-2"></div>
-
-              {/* Text overlay */}
-              <div className="absolute bottom-0 right-0 left-0 p-6 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">
-                <p className="text-xl font-semibold text-shadow">{image.alt}</p>
-              </div>
             </div>
           ))}
         </div>
