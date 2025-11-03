@@ -3,6 +3,7 @@ import Gallery from "@/components/Gallery";
 import About from "@/components/About";
 import Reviews from "@/components/Reviews";
 import Footer from "@/components/Footer";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 export default function Home() {
   // Structured Data for Local Business SEO
@@ -105,6 +106,7 @@ export default function Home() {
         <Gallery />
         <Reviews />
         <Footer />
+        <FloatingWhatsApp />
       </main>
     </>
   );
