@@ -115,7 +115,7 @@ export default function EventsPage() {
             {/* Kosher Notice */}
             <div className="bg-osha-gold/20 p-6 rounded-2xl border-2 border-osha-gold">
               <p className="text-lg md:text-xl text-center text-gray-800 font-semibold">
-                ✨ כשרות מלאה: כל האירועים באתר שלנו תחת פיקוח כשרות, כך שהאוכל איכותי, טעים – ולהרבה מאיפה לבחור.
+                ✨ כשרות מלאה: כל האירועים באתר שלנו תחת פיקוח כשרות, כך שהאוכל איכותי, טעים.
               </p>
             </div>
           </div>
