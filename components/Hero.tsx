@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaStar, FaWhatsapp } from "react-icons/fa";
 import { SiWaze } from "react-icons/si";
 
@@ -82,12 +83,12 @@ export default function Hero() {
           >
             גלו עוד
           </a>
-          <a
-            href="#about"
+          <Link
+            href="/events"
             className="inline-block bg-white text-osha-green px-8 py-4 rounded-full text-lg font-semibold hover:bg-opacity-90 transition-all hover:scale-105"
           >
             ארועים 🎉
-          </a>
+          </Link>
         </div>
       </div>
     </section>
