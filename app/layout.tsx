@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -64,6 +65,18 @@ export default function RootLayout({
       <head>
         <link rel="canonical" href="https://osha-808c23454ca3.herokuapp.com" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-XLX833ZRDY"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XLX833ZRDY');
+          `}
+        </Script>
       </head>
       <body>{children}</body>
     </html>
